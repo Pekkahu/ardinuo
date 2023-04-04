@@ -14,6 +14,7 @@ int speed(int percent) {
 };
 
 void setup() {
+    servo_motor.attach(10);
     Serial.begin(9600);
     Serial.println("show me your motivation");
     servo_motor.write(90);
