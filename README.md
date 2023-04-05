@@ -97,6 +97,12 @@ void loop() {
             motor3.run(BACKWARD);
             motor4.run(BACKWARD);
             break;
+            case 7:
+            motor1.run(RELEASE);
+            motor2.run(RELEASE);
+            motor3.run(RELEASE);
+            motor4.run(RELEASE);
+            break;
         }
     }
 }
